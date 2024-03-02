@@ -1,1 +1,1 @@
-# MoviesAppTest-Project
+# MoviesAppTest-Mini Project
