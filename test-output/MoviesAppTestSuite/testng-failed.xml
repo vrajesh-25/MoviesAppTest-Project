@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [MoviesAppTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="LoginAndHomePageTest(failed)">
+    <classes>
+      <class name="HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testPlayButton"/>
+        </methods>
+      </class> <!-- HomePageTest -->
+    </classes>
+  </test> <!-- LoginAndHomePageTest(failed) -->
+</suite> <!-- Failed suite [MoviesAppTestSuite] -->
